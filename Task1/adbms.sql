@@ -1,0 +1,26 @@
+CREATE TABLE tbl_std
+(
+    id INT PRIMARY KEY,
+    Name VARCHAR(20),
+    Roll INT,
+    Math NUMBER,
+    Science NUMBER,
+    English NUMBER
+)
+
+INSERT INTO tbl_std VALUES (1,'RAM',2,40,50,60)
+INSERT INTO tbl_std VALUES (2,'SUJAN',3,46,76,76)
+INSERT INTO tbl_std VALUES (3,'SUMAN',4,67,76,89)
+INSERT INTO tbl_std VALUES (4,'DINESH',6,44,55,77)
+INSERT INTO tbl_std VALUES (5,'ASHISH',9,65,55,65)
+
+
+SELECT * FROM tbl_std
+
+SELECT * FROM tbl_std WHERE Roll>2 AND ROLL<10
+
+DELETE FROM tbl_std WHERE id = 1
+
+UPDATE tbl_std SET Name='Ram Thapa' WHERE Name='RAM'
+
+COMMIT 
