@@ -1,4 +1,4 @@
-#Review of DDL DML and DQL in Oracle.
+## Review of DDL DML and DQL in Oracle.
 
 - Create table named tbl_std with following fields.
 --  id [Primary key], Name, Roll, Math, Science, English
