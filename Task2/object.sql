@@ -1,5 +1,7 @@
 
 // objects in dbms
+// sqlplus / as sysdba
+
 
 create type student_type as Object(
     id int,
